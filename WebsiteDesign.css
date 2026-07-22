@@ -1,0 +1,28 @@
+h3 {
+  color: #ff5733; /* Changes the text color to a specific hex color */
+  text-decoration: underline; /* Adds the underline effect */
+  text-decoration-thickness: 2px; /* (Optional) Adjusts the thickness of the line */
+  text-decoration-color: #000000; /* (Optional) Gives the underline a specific color different from the text */
+}
+
+h4 {
+  padding-left: 225px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h5 {
+  padding-left: 225px;
+}
+
+.contact {
+  display: inline-block;
+  background-color: #ff0000e0;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}

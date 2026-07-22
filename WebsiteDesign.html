@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Canada</title>
+    <link rel="stylesheet"
+    href="C:\Users\faiza\OneDrive\Desktop\OneDrive\Documents\GitHub\DG8002 - Website Design\WebsiteDesign.css">
+</head>
+<body style="background-image: url('https://thumbs.dreamstime.com/b/canadian-flag-copy-space-detailed-accurate-illustration-149690388.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: fixed; min-height: 100vh; margin: 0; ">
+    <h1 style="text-align: center;">EXPLORE CANADA</h1>
+    <h2 style="text-align: center;">Welcome! Your Canadian Adventure Starts Here</h2>
+    <h3 style="text-align: center;">The Great White North welcomes you to its treasured locations.</h3>
+    <h3 style="text-align: center;">All across the country there are places waiting for your arrival!</h3>
+    <h3 style="text-align: center;"> Look down below, see what you like, and contact us.</h3>
+    <hr style="width: 100%; margin: auto; border: 3px solid red;">
+    <h4>PROVINCES</h4>
+    <h5 id="p1">British Columbia</h5>
+    <h5 id="p2">Alberta</h5>
+    <h5 id="p3">Saskatchewan</h5>
+    <h5 id="p4">Manitoba</h5>
+    <h5 id="p5">Ontario</h5>
+    <h5 id="p6">Quebec</h5>
+    <h5 id="p7">New Brunswick</h5>
+    <h5 id="p8">Nova Scotia</h5>
+    <h5 id="p9">Prince Edward Island</h5>
+    <h5 id="p10">Newfoundland and Labrador</h5>
+    <p style="margin-bottom: 50px;"></p>
+    <h4>TERRITORIES</h4>
+    <h5 id="t1">Yukon</h5>
+    <h5 id="t2">Northwest Territories</h5>
+    <h5 id="t3">Nunavut</h5>
+    <div style="padding-left: 250px;">
+        <a href="C:\Users\faiza\OneDrive\Desktop\OneDrive\Documents\GitHub\DG8002 - Website Design\index.html" class="contact">Explore More by Contacting Us!</a>
+    </div> 
+    <script>   
+    var p1 = document.querySelector("#p1")
+    var p2 = document.querySelector("#p2")
+    var p3 = document.querySelector("#p3")
+    var p4 = document.querySelector("#p4")
+    var p5 = document.querySelector("#p5")
+    var p6 = document.querySelector("#p6")
+    var p7 = document.querySelector("#p7")
+    var p8 = document.querySelector("#p8")
+    var p9 = document.querySelector("#p9")
+    var p10 = document.querySelector("#p10")
+    var t1 = document.querySelector("#t1")
+    var t2 = document.querySelector("#t2")
+    var t3 = document.querySelector("#t3")
+
+    p1.addEventListener("mouseover", showdestinations)
+    p1.addEventListener("mouseout", hidedestinations)
+    p2.addEventListener("mouseover", showdestinations)
+    p2.addEventListener("mouseout", hidedestinations)
+    p3.addEventListener("mouseover", showdestinations)
+    p3.addEventListener("mouseout", hidedestinations)
+    p4.addEventListener("mouseover", showdestinations)
+    p4.addEventListener("mouseout", hidedestinations)
+    p5.addEventListener("mouseover", showdestinations)
+    p5.addEventListener("mouseout", hidedestinations)
+    p6.addEventListener("mouseover", showdestinations)
+    p6.addEventListener("mouseout", hidedestinations)
+    p7.addEventListener("mouseover", showdestinations)
+    p7.addEventListener("mouseout", hidedestinations)
+    p8.addEventListener("mouseover", showdestinations)
+    p8.addEventListener("mouseout", hidedestinations)
+    p9.addEventListener("mouseover", showdestinations)
+    p9.addEventListener("mouseout", hidedestinations)
+    p10.addEventListener("mouseover", showdestinations)
+    p10.addEventListener("mouseout", hidedestinations)
+    t1.addEventListener("mouseover", showdestinations)
+    t1.addEventListener("mouseout", hidedestinations)
+    t2.addEventListener("mouseover", showdestinations)
+    t2.addEventListener("mouseout", hidedestinations)
+    t3.addEventListener("mouseover", showdestinations)
+    t3.addEventListener("mouseout", hidedestinations)
+
+    function showdestinations(){
+        if (this.id == "p1"){
+            p1.innerHTML = "<u>British Columbia:</u><br><br>Columbia Valley: <br>The Columbia Valley is nestled between the beautiful Rocky and Purcell Mountain ranges. A short and <br>scenic 90 minute drive from Banff, The Columbia Valley is home to the communities of Radium Hot Springs,<br> Invermere, Panorama, Windermere, Fairmont Hot Springs, and Canal Flats. Throughout The Columbia <br>Valley, we invite you to discover warm water lakes, beautiful beaches, hot springs, charming communities,<br> gorgeous hiking trails, and unlimited adventure. Often referred to as the “Warm Side of the Rockies” The <br>Columbia Valley enjoys milder winters and long seasons of hiking, camping, golfing, and enjoying the fresh <br>mountain air. Find more in The Columbia Valley by exploring the endless activities and experiences.<br><br>Northern Vancouver Island:<br>Vancouver Island is the largest island in British Columbia, Canada. It’s one of the few places you can surf<br> and snowboard on the same day. Where you can see whales, Grizzly bears, sea lions, and dolphins within the <br>same hour and enjoy some of the most authentic Canadian outdoor experiences British Columbia has to<br> offer. The sweetness of North Vancouver Island is uncovered in the most remote places. The romance is in the <br>ruggedness, in the work that goes into being there. The exhaustion from a challenging hike or frozen hands <br>from an afternoon of paddling – a song and dance of perseverance and reward.";
+        }
+        else if (this.id == "p2"){
+            p2.innerHTML = "<u>Alberta:</u><br><br>Drumheller:<br>A unique town in the Canadian Badlands known as the dinosaur capital of the world, famous for the<br> Royal Tyrrell Museum, striking rock hoodoos, and a rich coal-mining past. A charismatic town in the epic<br> Canadian Badlands, this place can seem like something out of a dream. Many of the museum's greatest<br> specimens were unearthed in Dinosaur Provincial Park, a park that attracts more than 100,000 visitors<br> annually. One of the most popular guided tourist treks is to a vast dinosaur bone bed that covers an area the<br> size of two football pitches. There’s no better place to unearth your Wild Side.<br><br>Lacombe:<br>Lacombe is a charming city in central Alberta known for its well-preserved Edwardian architecture, rich<br> agriculture, and vibrant community spirit. It is celebrated as a top foodie and craft beer destination,<br> anchored by Blindman Brewing and boasts an incredible food scene with the popular Cilantro and Chive<br> restaurant. The area is rich in nature, with easy access to Gull Lake for boating and swimming, as well as<br> Lacombe Lake Park for walking and picnics."
+        }
+        else if (this.id == "p3"){
+            p3.innerHTML = "<u>Saskatchewan:</u><br><br>Grasslands National Park:<br>Grasslands National Park in southern Saskatchewan is a vast landscape of rolling prairie, dramatic badlands,<br> and open skies that showcase one of Canada's last remaining native grassland ecosystems. Visitors can spot<br> iconic wildlife such as bison, pronghorn, black-tailed prairie dogs, and golden eagles while exploring scenic<br> hiking trails and quiet backcountry areas. The park is also one of the country's best places for stargazing,<br> offering breathtaking views of the Milky Way thanks to its exceptionally dark skies. Rich in natural beauty,<br> wildlife, and history, Grasslands National Park provides an unforgettable experience for anyone seeking to connect<br> with Canada's wild prairie heritage.<br><br>Prince Albert National Park:<br>Nestled in the heart of Saskatchewan, Prince Albert National Park is a breathtaking wilderness of sparkling<br> lakes, rolling forests, and abundant wildlife, offering a peaceful escape into nature. Visitors can hike scenic<br> trails, paddle across pristine waters, spot bison, elk, and black bears, or relax on beautiful sandy beaches<br> surrounded by stunning landscapes. Whether you're seeking outdoor adventure or a quiet retreat, Prince<br> Albert National Park showcases the natural beauty and tranquility of the Canadian Prairies."
+        }
+        else if (this.id == "p4"){
+            p4.innerHTML = "<u>Manitoba:</u><br><br>Canadian Museum for Human Rights:<br>The Canadian Museum for Human Rights in Winnipeg, Manitoba, is a stunning architectural landmark and<br> the world's first museum dedicated exclusively to the evolution, celebration, and future of human rights.<br> Through powerful exhibits, interactive displays, and inspiring stories from Canada and around the world, it<br> encourages visitors to reflect on justice, equality, and the importance of protecting human dignity. Its iconic<br> Tower of Hope also offers breathtaking panoramic views of Winnipeg, making it a meaningful and<br> memorable destination.<br><br>Riding Mountain National Park:<br>Nestled in Manitoba's stunning wilderness, this park offers breathtaking landscapes of rolling forests,<br> pristine lakes, and abundant wildlife. Visitors can enjoy hiking scenic trails, camping under star-filled skies,<br> and spotting animals such as elk, moose, and black bears in their natural habitat. With a peaceful atmosphere<br> and spectacular natural beauty, the park is a perfect destination for outdoor adventure and relaxation."
+        } 
+        else if (this.id == "p5"){
+            p5.innerHTML = "<u>Ontario:</u><br><br>Niagara Falls:<br>One of Canada's most breathtaking natural destinations, Niagara Falls has millions of gallons of water<br> cascade over towering cliffs to create a spectacular display of power and beauty. Beyond the iconic waterfalls,<br> visitors can enjoy scenic parks, vibrant attractions, charming restaurants, and stunning views along the<br> Niagara Parkway. Whether visiting during the day or seeing the falls illuminated at night, Niagara Falls<br> offers an unforgettable experience that blends natural wonder with entertainment and hospitality.<br><br>Algonquin Provincial Park:<br>As Ontario's oldest provincial park, it is celebrated for its breathtaking forests, crystal-clear lakes, and<br> abundant wildlife. Visitors can paddle through peaceful waterways, hike scenic trails, and spot iconic<br> Canadian animals such as moose, beavers, and loons in their natural habitat. With stunning landscapes and<br> year-round outdoor activities, Algonquin offers an unforgettable escape in the beauty of Canadian wilderness."
+        }
+        else if (this.id == "p6"){
+            p6.innerHTML = "<u>Quebec:</u><br><br>Gaspé Peninsula:<br>A breathtaking coastal region where dramatic cliffs, rolling mountains, and the sparkling Gulf of St. Lawrence,<br> Gaspé Peninsula brrings them all together to create unforgettable scenery. Charming fishing villages, scenic<br> hiking trails, and iconic landmarks such as Percé Rock make it a perfect destination for nature lovers and<br> adventure seekers alike. Whether you're exploring national parks, spotting whales along the coast, or enjoying<br> fresh seafood, the Gaspé Peninsula offers a peaceful escape filled with natural beauty and rich maritime culture.<br><br>The Magdalen Islands:<br>Located in the Gulf of St. Lawrence, The Magdalen Islands are a breathtaking Quebec archipelago known for<br> their striking red sandstone cliffs, golden sandy beaches, and crystal-clear blue waters. This peaceful destination<br> offers visitors fresh seafood, charming fishing villages, scenic cycling routes, and endless opportunities for<br> kayaking, hiking, and wildlife watching. With unique Acadian culture, warm hospitality, and spectacular coastal<br> landscapes, the Magdalen Islands provide a perfect escape for anyone seeking relaxation and natural beauty."
+        }
+        else if (this.id == "p7"){
+            p7.innerHTML = "<u>New Brunswick:</u><br><br>Hopewell Rocks Provincial Park:<br>One of Canada's most iconic natural attractions, Hopewell Rocks Provincial Park is famous for its towering<br> flowerpot-shaped rock formations sculpted by the world's highest tides in the Bay of Fundy. Visitors can walk<br> along the ocean floor at low tide and later watch the same landscape transform as the tides rise, creating a truly<br> unforgettable experience. With its dramatic coastal scenery, scenic walking trails, and unique geological wonders,<br> the park offers an incredible way to experience the power and beauty of nature.<br><br>Fundy National Park:<br>Nestled along the rugged Bay of Fundy coastline in New Brunswick, Fundy National Park is renowned for its<br> dramatic tides, lush Acadian forests, and breathtaking coastal scenery. Visitors can explore scenic hiking trails,<br> cascading waterfalls, peaceful lakes, and panoramic lookouts while experiencing the world's highest tides.<br> Whether you're camping, kayaking, or simply enjoying the fresh ocean air, Fundy National Park offers an<br> unforgettable blend of adventure, nature, and tranquility."
+        }
+        else if (this.id == "p8"){
+            p8.innerHTML = "<u>Nova Scotia:</u><br><br>Cape Breton Island:<br>This island is a breathtaking destination known for its dramatic coastal cliffs, rolling highlands, and charming<br> seaside villages. Visitors can drive the world-famous Cabot Trail, explore Cape Breton Highlands National Park,<br> and experience the island's rich Celtic heritage through traditional music, culture, and local cuisine. With its<br> stunning scenery, outdoor adventures, and warm hospitality, Cape Breton Island offers an unforgettable escape<br> for nature lovers and travelers alike.<br><br>Peggy's Cove:<br>One of Nova Scotia's most iconic coastal destinations, Peggy's Cove is known for its picturesque lighthouse,<br> rugged granite rocks, and breathtaking views of the Atlantic Ocean. Visitors can enjoy the peaceful charm of the<br> historic fishing village while exploring scenic walking paths, watching crashing waves, and capturing<br> unforgettable photographs. Its combination of natural beauty, maritime heritage, and tranquil atmosphere<br> makes Peggy's Cove a must-visit destination for anyone exploring Canada's East Coast."
+        }
+        else if (this.id == "p9"){
+            p9.innerHTML = "<u>Prince Edward Island:</u><br><br>Charlottetown:<br>The charming capital of Prince Edward Island, Charlottetown is known for its picturesque waterfront, historic<br> architecture, and welcoming small-town atmosphere. As the birthplace of Canadian Confederation, the city<br> blends rich history with vibrant cultural attractions, local shops, restaurants, and scenic parks. Visitors can enjoy<br> beautiful coastal views, fresh seafood, and easy access to the island's famous red-sand beaches and rolling countryside.<br><br>Cavendish:<br>The charming coastal destination Cavendish is known for its red sandstone cliffs, pristine sandy beaches, and<br> rolling green countryside. Famous as the home of Anne of Green Gables, it offers a blend of literary history,<br> scenic beauty, and welcoming Maritime hospitality. Visitors can enjoy breathtaking ocean views, outdoor<br> adventures, fresh seafood, and a peaceful atmosphere that makes Cavendish a perfect getaway."
+        }
+        else if (this.id == "p10"){
+            p10.innerHTML = "<u>Newfoundland and Labrador:</u><br><br>Gros Morne National Park:<br>A UNESCO World Heritage Site, Gros Morne National Park, renowned for its dramatic fjords, towering cliffs,<br> ancient mountains, and breathtaking coastal scenery. Visitors can hike through diverse landscapes, explore the<br> spectacular Western Brook Pond fjord, and discover the unique Tablelands, where Earth's mantle is exposed at<br> the surface. Its stunning natural beauty, abundant wildlife, and rich geological history make Gros Morne one of<br> Canada's most unforgettable outdoor destinations.<br><br>St. John's:<br>The capital of Newfoundland and Labrador, St. John's is a vibrant coastal city known for its colorful row houses,<br> rich maritime history, and welcoming atmosphere. Nestled along the rugged Atlantic coastline, it offers<br> breathtaking ocean views, scenic hiking trails, and iconic landmarks such as Signal Hill and Cape Spear, the<br> easternmost point in North America. With its lively arts scene, fresh seafood, and unique blend of historic charm<br> and modern culture, St. John's is a memorable destination for visitors seeking both adventure and relaxation."
+        }
+        else if (this.id == "t1"){
+            t1.innerHTML = "<u>Yukon:</u><br><br>Kluane National Park and Reserve:<br>A spectacular wilderness of towering mountains, vast glaciers, crystal-clear lakes, and diverse wildlife. Home to<br> Canada's highest peak, Mount Logan, the park offers breathtaking scenery and unforgettable opportunities for<br> hiking, camping, wildlife viewing, and adventure. Whether you're exploring its rugged landscapes or taking in the<br> panoramic views, Kluane provides an unforgettable experience in one of Canada's most pristine natural environments.<br><br>Dawson City:<br>A charming historic town nestled along the Yukon River, Dawson City is where the spirit of the Klondike Gold<br> Rush still comes alive through its preserved buildings and rich heritage. Surrounded by breathtaking northern<br> wilderness, it offers stunning landscapes, outdoor adventures, and the chance to experience the beauty of the<br> Midnight Sun or the Northern Lights, depending on the season. With its welcoming community, unique cultural<br> attractions, and fascinating history, Dawson City is a memorable destination that blends adventure, nature, and<br> the past into one unforgettable experience."
+        }
+        else if (this.id == "t2"){
+            t2.innerHTML = "<u>Northwest Territories:</u><br><br>Yellowknife:<br>A vibrant northern city surrounded by pristine lakes, rugged forests, and breathtaking wilderness. It is renowned<br> for its spectacular displays of the Northern Lights, rich Indigenous culture, and endless opportunities for outdoor<br> adventures such as fishing, hiking, and dog sledding. Combining a welcoming community with stunning natural<br> beauty, Yellowknife offers visitors an unforgettable experience in the heart of Canada's North.<br><br>Nahanni National Park Reserve:<br>A vast wilderness of towering mountains, deep river canyons, ancient forests, and breathtaking waterfalls. The<br> park is famous for the powerful Virginia Falls, where the South Nahanni River plunges nearly twice the height of<br> Niagara Falls, creating one of Canada's most spectacular natural landmarks. With its untouched landscapes,<br> diverse wildlife, and endless opportunities for hiking, paddling, and exploration, Nahanni offers an unforgettable<br> adventure in the heart of Canada's northern wilderness."
+        }
+        else if (this.id == "t3"){
+            t3.innerHTML = "<u>Nunavut:</u><br><br>Auyuittuq National Park:<br>A breathtaking Arctic wilderness of towering granite peaks, massive glaciers, and deep fjords that showcase some<br> of Canada's most dramatic landscapes. Located on Baffin Island, the park offers incredible opportunities for<br> hiking, mountaineering, wildlife viewing, and experiencing the beauty of the Arctic tundra. Its name, meaning<br> 'the land that never melts' in Inuktitut, reflects the park's timeless glaciers and rugged environment, making it an<br> unforgettable destination for adventurous travelers.<br><br>Quttinirpaaq National Park:<br>One of the world's most remote and untouched wilderness areas. Towering mountains, vast glaciers, deep fjords,<br> and polar deserts create a breathtaking Arctic landscape where muskoxen, Arctic wolves, and polar bears roam.<br> Its pristine beauty, endless summer daylight, and incredible sense of isolation make it a remarkable destination<br> for adventurous travelers seeking a truly unique Canadian experience."
+        }
+    } 
+
+    function hidedestinations(){
+        if (this.id == "p1"){
+            p1.innerHTML = "British Columbia";
+        }
+        if (this.id == "p2"){
+            p2.innerHTML = "Alberta";
+        }
+        if (this.id == "p3"){
+            p3.innerHTML = "Saskatchewan";
+        }
+        if (this.id == "p4"){
+            p4.innerHTML = "Manitoba";
+        }
+        if (this.id == "p5"){
+            p5.innerHTML = "Ontario";
+        }
+        if (this.id == "p6"){
+            p6.innerHTML = "Quebec";
+        }
+        if (this.id == "p7"){
+            p7.innerHTML = "New Brunswick";
+        }
+        if (this.id == "p8"){
+            p8.innerHTML = "Nova Scotia";
+        }
+        if (this.id == "p9"){
+            p9.innerHTML = "Prince Edward Island";
+        }
+        if (this.id == "p10"){
+            p10.innerHTML = "Newfoundland and Labrador";
+        }
+        if (this.id == "t1"){
+            t1.innerHTML = "Yukon";
+        }
+        if (this.id == "t2"){
+            t2.innerHTML = "Northwest Territories";
+        }
+        if (this.id == "t3"){
+            t3.innerHTML = "Nunavut";
+        }
+    }
+    
+    </script>
+    <footer>© 2026 Explore Canada</footer>
+</body>
+</html>
